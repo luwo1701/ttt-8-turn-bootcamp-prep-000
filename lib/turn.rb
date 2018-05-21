@@ -8,8 +8,8 @@ def turn(board)
     #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     if valid_move?(board,index)
       move(board,index)
-      display_board(board)
-      moved==true
+      return display_board(board)
+      
     end
   end
 end
