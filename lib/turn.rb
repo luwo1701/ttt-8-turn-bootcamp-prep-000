@@ -1,6 +1,9 @@
 def turn(board)
-  puts 
-def display_board(board)
+puts "Please enter 1-9"
+
+input = gets.strip()
+index = input_to_index(input)
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]def display_board(board)
    
   (0..6).step(3) do |n|
     if (n<6)
