@@ -8,6 +8,7 @@ def turn(board)
     return display_board(board)
   else
     puts "invalid"
+  end
 end
 
 def display_board(board)
