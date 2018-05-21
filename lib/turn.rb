@@ -1,3 +1,5 @@
+def turn(board)
+  puts 
 def display_board(board)
    
   (0..6).step(3) do |n|
@@ -39,4 +41,4 @@ end
   
 #board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 #display_board(board)
-input_to_index("2")
+#input_to_index("2")
