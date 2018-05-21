@@ -11,6 +11,7 @@ def turn(board)
       display_board(board)
       moved==true
     end
+  end
 end
 
 def display_board(board)
