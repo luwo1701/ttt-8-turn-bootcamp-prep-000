@@ -8,9 +8,8 @@ def turn(board)
     #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     if valid_move?(board,index)
       move(board,index)
-      return display_board(board)
-    else
-      puts "Please enter 1-9"
+      display_board(board)
+      moved==true
     end
 end
 
